@@ -2,4 +2,4 @@ mkdir build
 cd build
 CXX=clang++ cmake ..
 make
-./tests/utility_fuzzer_test.cpp -max_total_time=60  # Cancel fuzzing after 60 seconds
+./tests/utility_fuzzer_test -max_total_time=60  # Cancel fuzzing after 60 seconds
